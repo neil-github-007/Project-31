@@ -18,7 +18,7 @@ class Drops {
         ellipse(this.body.position.x, this.body.position.y, this.radius, this.radius);
 
         if(this.body.position.y > 700) {
-            Matter.Body.setPosition(this.body, {x: random(0, 400), y:0});
+            Matter.Body.setPosition(this.body, {x: random(0, 400), y:random(0, 40)});
         }
     }
 }
