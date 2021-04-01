@@ -40,7 +40,7 @@ function draw(){
    Engine.update(engine);
 
     for(var j = 0; j<maxDrops; j++) {
-        dropsArray.push(new Drops(random(0,400), random(0, 400));
+        dropsArray.push(new Drops(random(0,400), random(0, 40));
         dropsArray[j].display(); 
     }
 
